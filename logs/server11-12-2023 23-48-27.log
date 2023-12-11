@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-12-11T22:48:28.055315500Z</date>
+  <millis>1702334908055</millis>
+  <nanos>315500</nanos>
+  <sequence>0</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Server started on machine 192.168.1.44 and on port 2025</message>
+</record>
+<record>
+  <date>2023-12-11T22:48:56.011052300Z</date>
+  <millis>1702334936011</millis>
+  <nanos>52300</nanos>
+  <sequence>1</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Users connected : 1</message>
+</record>
+<record>
+  <date>2023-12-11T22:48:56.011052300Z</date>
+  <millis>1702334936011</millis>
+  <nanos>52300</nanos>
+  <sequence>2</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer</class>
+  <method>sendMessage</method>
+  <thread>16</thread>
+  <message>[/192.168.1.44]Welcome to the chat !
+Type !help to see available commands</message>
+</record>
+<record>
+  <date>2023-12-11T22:48:56.026671600Z</date>
+  <millis>1702334936026</millis>
+  <nanos>671600</nanos>
+  <sequence>3</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer$TCPClientHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Client /192.168.1.44 connected</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:27.834263400Z</date>
+  <millis>1702334967834</millis>
+  <nanos>263400</nanos>
+  <sequence>4</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer$TCPClientHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Client /192.168.1.44 asked for help</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:27.834263400Z</date>
+  <millis>1702334967834</millis>
+  <nanos>263400</nanos>
+  <sequence>5</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer</class>
+  <method>sendMessage</method>
+  <thread>16</thread>
+  <message>[/192.168.1.44]!help : Display this menu
+&lt;message&gt; : send message to server to broadcast to all users connected
+!whisper &lt;ip address&gt; &lt;message&gt; : Send a private message to a user
+!list : Display the list of connected users
+!quit : Disconnect from the server
+</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:33.550353200Z</date>
+  <millis>1702334973550</millis>
+  <nanos>353200</nanos>
+  <sequence>6</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer$TCPClientHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Client /192.168.1.44 asked for list</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:33.581249500Z</date>
+  <millis>1702334973581</millis>
+  <nanos>249500</nanos>
+  <sequence>7</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer$TCPClientHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>[user 0] /192.168.1.44</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:33.581249500Z</date>
+  <millis>1702334973581</millis>
+  <nanos>249500</nanos>
+  <sequence>8</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer</class>
+  <method>sendMessage</method>
+  <thread>16</thread>
+  <message>[/192.168.1.44]Total users connected : 1
+[user 0] /192.168.1.44
+</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:40.128881600Z</date>
+  <millis>1702334980128</millis>
+  <nanos>881600</nanos>
+  <sequence>9</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer$TCPClientHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Client disconnected</message>
+</record>
+<record>
+  <date>2023-12-11T22:49:40.139415600Z</date>
+  <millis>1702334980139</millis>
+  <nanos>415600</nanos>
+  <sequence>10</sequence>
+  <logger>TCPServer</logger>
+  <level>INFO</level>
+  <class>TCPServer$TCPClientHandler</class>
+  <method>run</method>
+  <thread>16</thread>
+  <message>Server closed at 11-12-2023 23-49-40</message>
+</record>
+</log>
